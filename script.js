@@ -1,1 +1,3 @@
-const menu = document.querySelector(".icon-menu");
+function toggleMobileMenu(menu) {
+    menu.classList.toggle("open")
+}
